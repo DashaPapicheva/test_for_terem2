@@ -8,56 +8,56 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <form>
+    <form action="/" id="myForm" >
       <div class="selectionPlace">
         <div>
           <label for="firstSelection">Далеко-далеко, за словесными.</label>
           <select class="selectOptions" name="firstSel" id="firstSelection">
-            <option value="value1">1</option>
-            <option value="value2">2</option>
-            <option value="value3" selected>3</option>
-            <option value="value4">4</option>
-            <option value="value5">5</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
           </select>
         </div>
         <div>
           <label for="secondSelection">Далеко-далеко, за.</label>
           <select class="selectOptions" name="secondSel" id="secondSelection">
-            <option value="value1">1</option>
-            <option value="value2" selected>2</option>
-            <option value="value3">3</option>
-            <option value="value4">4</option>
-            <option value="value5">5</option>
+            <option value="1">1</option>
+            <option value="2" selected>2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
           </select>
         </div>
         <div>
           <label for="thirdSelection">Далеко-далеко за словесными.</label>
           <select class="selectOptions" name="thirdSel" id="thirdSelection">
-            <option value="value1">1</option>
-            <option value="value2">2</option>
-            <option value="value3">3</option>
-            <option value="value4" selected>4</option>
-            <option value="value5">5</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4" selected>4</option>
+            <option value="5">5</option>
           </select>
         </div>
         <div>
             <label for="fourthSelection">Далеко-далеко, за.</label>
             <select class="selectOptions" name="fourthSel" id="fourthSelection">
-              <option value="value1">1</option>
-              <option value="value2" selected>2</option>
-              <option value="value3">3</option>
-              <option value="value4">4</option>
-              <option value="value5">5</option>
+              <option value="1">1</option>
+              <option value="2" selected>2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
             </select>
           </div>
           <div>
             <label for="fifthSelection">Далеко-далеко за словесными.</label>
             <select class="selectOptions" name="fifthSel" id="fifthSelection">
-              <option value="value1">1</option>
-              <option value="value2">2</option>
-              <option value="value3">3</option>
-              <option value="value4" selected>4</option>
-              <option value="value5">5</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4" selected>4</option>
+              <option value="5">5</option>
             </select>
           </div>
       </div>
@@ -68,10 +68,15 @@
           </div>
           <div class="textParagraph">
             <label for="secondText">Далеко-далеко за словесными горами.</label>
-            <input type="text" name="secondTextArea" id="secondText" placeholder="Далеко-далеко, за словесными.">
+            <input type="text" name="secondTextArea" id="secondText" placeholder="Далеко-далеко, за словесными.")>
           </div>
       </div>
-      <button type="submit">Отправить</button>
+      <button id="butt" type="button" value="Кнопка">Отправить</button>
     </form>
+
+    <div id="str"></div>
+
+    <script src="main.js"></script>
+
   </body>
 </html>
